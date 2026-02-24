@@ -1,0 +1,30 @@
+.category-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 32px;
+}
+
+.cat-btn {
+  padding: 8px 20px;
+  border-radius: 30px;
+  border: 1px solid #e0d9d0;
+  background: #fff;
+  color: #555;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.cat-btn:hover {
+  border-color: #1a1a1a;
+  color: #1a1a1a;
+}
+
+.cat-btn.cat-active {
+  background: #e85d26;
+  color: #fff;
+  border-color: #e85d26;
+}
